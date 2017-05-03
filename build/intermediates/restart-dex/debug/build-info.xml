@@ -3,27 +3,27 @@
     abi="armeabi-v7a,armeabi"
     api-level="16"
     format="7"
-    timestamp="7634058746024"
+    timestamp="3836106651059"
     token="3527733579000616909" >
 
     <task
         name="javac"
-        duration="595" />
+        duration="559" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="517" />
+        duration="518" />
     <task
         name="verifier"
-        duration="291" />
+        duration="274" />
 
     <artifact
         location="F:\AndroidProjectRepThird\MyApplication2\splashActivity\build\outputs\apk\splashActivity-debug.apk"
         type="MAIN" />
 
-    <build timestamp="7634058746024" >
+    <build timestamp="3836106651059" >
         <artifact
             location="F:\AndroidProjectRepThird\MyApplication2\splashActivity\build\outputs\apk\splashActivity-debug.apk"
             type="MAIN" />
