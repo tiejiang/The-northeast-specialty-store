@@ -5,7 +5,7 @@ android {
     buildToolsVersion "19.1.0"
 
     defaultConfig {
-        applicationId "com.itau.jingdong"
+        applicationId "com.aily.northeastelecstore"
         minSdkVersion 7
         targetSdkVersion 17
     }

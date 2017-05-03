@@ -536,16 +536,16 @@
         "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\android_my_jd_account_safe.png"
     },
     {
-        "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_limit_buy_ok_selector.xml",
-        "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\app_limit_buy_ok_selector.xml"
+        "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\android_activities_bg.png",
+        "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\android_activities_bg.png"
     },
     {
         "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\main_bottom_tab_cart_focus.png",
         "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\main_bottom_tab_cart_focus.png"
     },
     {
-        "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\android_activities_bg.png",
-        "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\android_activities_bg.png"
+        "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_limit_buy_ok_selector.xml",
+        "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\app_limit_buy_ok_selector.xml"
     },
     {
         "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\android_activities_cur.png",
@@ -630,6 +630,10 @@
     {
         "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\index_gallery_12.png",
         "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\index_gallery_12.png"
+    },
+    {
+        "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\home_logo.png",
+        "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\home_logo.png"
     },
     {
         "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\app_limit_buy_btn_immediately_selector.xml",
@@ -754,10 +758,6 @@
     {
         "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\home_panicbuying_background.xml",
         "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\home_panicbuying_background.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\home_logo.9.png",
-        "source": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\src\\main\\res\\drawable\\home_logo.9.png"
     },
     {
         "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\splashActivity\\build\\intermediates\\res\\merged\\debug\\drawable\\android_search_button_icon.png",

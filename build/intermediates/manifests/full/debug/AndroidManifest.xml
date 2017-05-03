@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.itau.jingdong"
+    package="com.aily.northeastelecstore"
     android:installLocation="auto"
     android:versionCode="1"
     android:versionName="1.0.0" >
@@ -33,13 +33,13 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name="com.itau.jingdong.BaseApplication"
+        android:name="com.aily.northeastelecstore.BaseApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.itau.jingdong.ui.SplashActivity"
+            android:name="com.aily.northeastelecstore.ui.SplashActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:theme="@style/SplashTheme" >
@@ -50,85 +50,85 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.HomeActivity"
+            android:name="com.aily.northeastelecstore.ui.HomeActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.itau.jingdong.ui.MainActivity"
+            android:name="com.aily.northeastelecstore.ui.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.itau.jingdong.ui.IndexActivity"
+            android:name="com.aily.northeastelecstore.ui.IndexActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.itau.jingdong.ui.CategoryActivity"
+            android:name="com.aily.northeastelecstore.ui.CategoryActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.itau.jingdong.ui.CartActivity"
+            android:name="com.aily.northeastelecstore.ui.CartActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.itau.jingdong.ui.PersonalActivity"
+            android:name="com.aily.northeastelecstore.ui.PersonalActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="com.itau.jingdong.ui.SearchActivity"
+            android:name="com.aily.northeastelecstore.ui.SearchActivity"
             android:launchMode="singleTop"
             android:theme="@style/Theme.Present"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.itau.jingdong.ui.LoginActivity"
+            android:name="com.aily.northeastelecstore.ui.LoginActivity"
             android:theme="@android:style/Theme.NoTitleBar" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.RegisterActivity"
+            android:name="com.aily.northeastelecstore.ui.RegisterActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.RegisterBormalActivity"
+            android:name="com.aily.northeastelecstore.ui.RegisterBormalActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.MoreActivity"
+            android:name="com.aily.northeastelecstore.ui.MoreActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.IndexShakeActivity"
+            android:name="com.aily.northeastelecstore.ui.IndexShakeActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.IndexClothingActivity"
+            android:name="com.aily.northeastelecstore.ui.IndexClothingActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.IndexDigtalActivity"
+            android:name="com.aily.northeastelecstore.ui.IndexDigtalActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.IndexDaily"
+            android:name="com.aily.northeastelecstore.ui.IndexDaily"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.ui.IndexEbookActivity"
+            android:name="com.aily.northeastelecstore.ui.IndexEbookActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.zxing.CaptureActivity"
+            android:name="com.aily.northeastelecstore.zxing.CaptureActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.itau.jingdong.zxing.CaptureResultActivity"
+            android:name="com.aily.northeastelecstore.zxing.CaptureResultActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" />
     </application>
