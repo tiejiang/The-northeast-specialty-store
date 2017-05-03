@@ -4,30 +4,22 @@
     api-level="19"
     density="xxhdpi"
     format="7"
-    timestamp="5901395427900"
+    timestamp="6052018120444"
     token="-5175018538816649949" >
 
     <task
         name="javac"
-        duration="706" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="516" />
+        duration="0" />
     <task
         name="verifier"
-        duration="283" />
+        duration="0" />
 
-    <artifact
-        location="F:\AndroidProjectRepThird\MyApplication2\elecmall\build\outputs\apk\elecmall-debug.apk"
-        type="MAIN" />
-
-    <build timestamp="5901395427900" >
-        <artifact
-            location="F:\AndroidProjectRepThird\MyApplication2\elecmall\build\outputs\apk\elecmall-debug.apk"
-            type="MAIN" />
-    </build>
+    <build timestamp="6052018120444" />
 
 </instant-run>
