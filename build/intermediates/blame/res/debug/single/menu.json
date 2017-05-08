@@ -1,6 +1,10 @@
 [
     {
-        "merged": "F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\menu\\activity_menu.xml",
-        "source": "F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\menu\\activity_menu.xml"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/menu/activity_menu.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/menu/activity_menu.xml"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\menu\\activity_menu.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\menu\\activity_menu.xml"
     }
 ]
