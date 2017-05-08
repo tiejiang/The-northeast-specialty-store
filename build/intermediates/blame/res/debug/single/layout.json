@@ -204,6 +204,10 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/app_search_toolbar_button.xml"
     },
     {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_promotion.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_promotion.xml"
+    },
+    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\exit_dialog_from_settings.xml",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\exit_dialog_from_settings.xml"
     },

@@ -6,7 +6,7 @@
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="7"
+        android:minSdkVersion="9"
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -133,6 +133,11 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name="com.aily.northeastelecstore.ui.MiaoShaActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.aily.northeastelecstore.ui.Order"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme" >
         </activity>

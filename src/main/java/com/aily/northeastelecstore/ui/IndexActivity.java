@@ -2,6 +2,7 @@ package com.aily.northeastelecstore.ui;
 
 import android.content.Intent;
 import android.graphics.Paint;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -51,7 +52,7 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener,
 	private TextView mIndexRawPrice = null;
 	
 	//=============中部导航栏模块=====
-	private ImageButton shake;
+	private ImageButton index_recharge_btn,index_promotion_btn, index_groupbuy_btn, index_order_btn, index_lottery_btn,shake;
 	private Intent mIntent;
 	
 	// ============== 广告切换 ===================
@@ -135,12 +136,25 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener,
 		mSearchBox = (EditText) findViewById(R.id.index_search_edit);
 		mCamerButton = (ImageButton) findViewById(R.id.index_camer_button);
 		mTopLayout = (LinearLayout) findViewById(R.id.index_top_layout);
-		
+
+		index_recharge_btn = (ImageButton) findViewById(R.id.index_recharge_btn);
+		index_promotion_btn = (ImageButton) findViewById(R.id.index_promotion_btn);
+		index_groupbuy_btn = (ImageButton) findViewById(R.id.index_groupbuy_btn);
+		index_lottery_btn = (ImageButton) findViewById(R.id.index_lottery_btn);
+		index_order_btn = (ImageButton) findViewById(R.id.index_order_btn);
+
 		shake=(ImageButton)findViewById(R.id.index_shake);
 		
 		//添加事件
+		index_promotion_btn.setOnClickListener(indexClickListener);
+		index_recharge_btn.setOnClickListener(indexClickListener);
+		index_groupbuy_btn.setOnClickListener(indexClickListener);
+		index_order_btn.setOnClickListener(indexClickListener);
+		index_lottery_btn.setOnClickListener(indexClickListener);
 		shake.setOnClickListener(indexClickListener);
 		mMiaoShaImage.setOnClickListener(indexClickListener);
+
+
 
 	}
 
@@ -158,7 +172,33 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener,
 				case R.id.index_miaosha_image:
 					mIntent = new Intent(IndexActivity.this, MiaoShaActivity.class);
 					startActivity(mIntent);
-
+					break;
+				case R.id.index_promotion_btn:
+					mIntent = new Intent(IndexActivity.this, Promotion.class);
+					startActivity(mIntent);
+					break;
+				case R.id.index_recharge_btn:
+					String uri = "http://iservice.10010.com/e4/";
+					Uri mUri = Uri.parse(uri);
+					mIntent = new Intent(Intent.ACTION_VIEW, mUri);
+					startActivity(mIntent);
+					break;
+				case R.id.index_lottery_btn:
+					String uri_lottery = "http://www.lottery.gov.cn/";
+					Uri mUri_lottery = Uri.parse(uri_lottery);
+					mIntent = new Intent(Intent.ACTION_VIEW, mUri_lottery);
+					startActivity(mIntent);
+					break;
+				case R.id.index_groupbuy_btn:
+					String uri_meituan = "http://bj.meituan.com/";
+					Uri mUri_meituan = Uri.parse(uri_meituan);
+					mIntent = new Intent(Intent.ACTION_VIEW, mUri_meituan);
+					startActivity(mIntent);
+					break;
+				case R.id.index_order_btn:
+					mIntent = new Intent(IndexActivity.this, Order.class);
+					startActivity(mIntent);
+					break;
 
 			default:
 				break;

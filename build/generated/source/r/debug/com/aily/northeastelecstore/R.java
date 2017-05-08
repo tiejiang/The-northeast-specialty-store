@@ -932,17 +932,18 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_model=0x7f030010;
         public static final int activity_more=0x7f030011;
         public static final int activity_personal=0x7f030012;
-        public static final int activity_register=0x7f030013;
-        public static final int activity_register_normal=0x7f030014;
-        public static final int activity_search=0x7f030015;
-        public static final int activity_shake=0x7f030016;
-        public static final int activity_splash=0x7f030017;
-        public static final int app_search_toolbar_button=0x7f030018;
-        public static final int capture_result=0x7f030019;
-        public static final int custom_toast=0x7f03001a;
-        public static final int details_title=0x7f03001b;
-        public static final int exit_dialog_from_settings=0x7f03001c;
-        public static final int qr_code_scan=0x7f03001d;
+        public static final int activity_promotion=0x7f030013;
+        public static final int activity_register=0x7f030014;
+        public static final int activity_register_normal=0x7f030015;
+        public static final int activity_search=0x7f030016;
+        public static final int activity_shake=0x7f030017;
+        public static final int activity_splash=0x7f030018;
+        public static final int app_search_toolbar_button=0x7f030019;
+        public static final int capture_result=0x7f03001a;
+        public static final int custom_toast=0x7f03001b;
+        public static final int details_title=0x7f03001c;
+        public static final int exit_dialog_from_settings=0x7f03001d;
+        public static final int qr_code_scan=0x7f03001e;
     }
     public static final class menu {
         public static final int activity_menu=0x7f0e0000;
