@@ -129,6 +129,11 @@
         <activity android:name="com.aily.northeastelecstore.zxing.CaptureResultActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name="com.aily.northeastelecstore.ui.MiaoShaActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme" />
+        <activity
     </application>
 
 </manifest>

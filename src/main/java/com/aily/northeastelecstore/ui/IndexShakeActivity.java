@@ -1,7 +1,5 @@
 package com.aily.northeastelecstore.ui;
 
-import java.util.Random;
-
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -19,6 +17,8 @@ import com.aily.northeastelecstore.R;
 import com.aily.northeastelecstore.utils.ShakeListenerUtils;
 import com.aily.northeastelecstore.utils.ShakeListenerUtils.OnShakeListener;
 
+import java.util.Random;
+
 public class IndexShakeActivity extends Activity {
 
 	private Vibrator vibrator;//震动
@@ -28,15 +28,15 @@ public class IndexShakeActivity extends Activity {
 	private ShakeListenerUtils shakeListener;
 	private Button btnBack;
 	
-private	int icon[] = { R.drawable.image_left, R.drawable.image_middle,R.drawable.image_right };
+	private	int icon[] = { R.drawable.image_left, R.drawable.image_middle,R.drawable.image_right };
 
-private	int icoSotp[] = { R.drawable.lottery_result, R.drawable.lottery_head_2 ,R.drawable.lottery_nothing,R.drawable.lottery_something};
+	private	int icoSotp[] = { R.drawable.lottery_result, R.drawable.lottery_head_2 ,R.drawable.lottery_nothing,R.drawable.lottery_something};
 
-private	int index = 0;
+	private	int index = 0;
 
-private int randomC=0;
+	private int randomC=0;
 
-private Random random;
+	private Random random;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

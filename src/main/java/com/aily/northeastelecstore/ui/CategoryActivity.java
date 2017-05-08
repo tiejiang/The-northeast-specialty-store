@@ -41,7 +41,7 @@ public class CategoryActivity extends BaseActivity {
 			@Override
 			public void onItemClick(AdapterView<?> adapterview, View view, int parent,
 					long id) {
-				Toast.makeText(CategoryActivity.this, "你点击了地"+id+"项", 1).show();
+				Toast.makeText(CategoryActivity.this, "你点击了第"+id+"项", Toast.LENGTH_SHORT).show();
 				
 			}
 		});
@@ -77,7 +77,7 @@ public class CategoryActivity extends BaseActivity {
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 
-			ViewHolder holder=new ViewHolder();
+			ViewHolder holder = new ViewHolder();
 			layoutInflater=LayoutInflater.from(CategoryActivity.this);
 			
 			//组装数据
@@ -100,28 +100,28 @@ public class CategoryActivity extends BaseActivity {
 		
 		}
 		
-		
-		
 	}
 	
 	
 	// 适配显示的图片数组
-				private Integer[] mImageIds = {R.drawable.catergory_appliance,R.drawable.catergory_book,R.drawable.catergory_cloth,R.drawable.catergory_deskbook,
-						R.drawable.catergory_digtcamer,R.drawable.catergory_furnitrue,R.drawable.catergory_mobile,R.drawable.catergory_skincare
-						 };
-				//给照片添加文字显示(Title)
-				private String[] mTitleValues = { "家电", "图书", "衣服", "笔记本", "数码",
-						"家具", "手机", "护肤" };
-				
-				private String[] mContentValues={"家电/生活电器/厨房电器", "电子书/图书/小说","男装/女装/童装", "笔记本/笔记本配件/产品外设", "摄影摄像/数码配件", 
-						"家具/灯具/生活用品", "手机通讯/运营商/手机配件", "面部护理/口腔护理/..."};
+	private Integer[] mImageIds = {R.drawable.catergory_appliance,R.drawable.catergory_book,R.drawable.catergory_cloth,R.drawable.catergory_deskbook,
+			R.drawable.catergory_digtcamer,R.drawable.catergory_furnitrue,R.drawable.catergory_mobile,R.drawable.catergory_skincare
+			 };
+	//给照片添加文字显示(Title)
+//				private String[] mTitleValues = { "家电", "图书", "衣服", "笔记本", "数码",
+//						"家具", "手机", "护肤" };
+	private String[] mTitleValues = { "山珍", "农产品", "熟食", "养生", "家禽",
+			"家居", "装饰", "民俗" };
+
+	private String[] mContentValues={"山珍", "农产品","熟食", "养生",
+			"家禽", "家居", "装饰", "民俗"};
 			
 
-		 public static class ViewHolder {
-				ImageView image;
-				TextView title;
-				TextView content;
-			}
+	 public static class ViewHolder {
+			ImageView image;
+			TextView title;
+			TextView content;
+		}
 	
 	
 

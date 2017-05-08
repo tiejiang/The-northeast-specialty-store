@@ -1,8 +1,5 @@
 package com.aily.northeastelecstore.ui;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
@@ -39,7 +36,10 @@ import com.aily.northeastelecstore.widgets.jazzviewpager.OutlineContainer;
 import com.aily.northeastelecstore.zxing.CaptureActivity;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
-public class IndexActivity extends BaseActivity implements OnClickListener,
+import java.util.ArrayList;
+import java.util.List;
+
+public class IndexActivity extends BaseActivity implements View.OnClickListener,
 		onSearchBarItemClickListener {
 	public static final String TAG = IndexActivity.class.getSimpleName();
 
@@ -140,6 +140,8 @@ public class IndexActivity extends BaseActivity implements OnClickListener,
 		
 		//添加事件
 		shake.setOnClickListener(indexClickListener);
+		mMiaoShaImage.setOnClickListener(indexClickListener);
+
 	}
 
 	
@@ -152,6 +154,11 @@ public class IndexActivity extends BaseActivity implements OnClickListener,
 				mIntent=new Intent(IndexActivity.this, IndexShakeActivity.class);
 				startActivity(mIntent);
 				break;
+
+				case R.id.index_miaosha_image:
+					mIntent = new Intent(IndexActivity.this, MiaoShaActivity.class);
+					startActivity(mIntent);
+
 
 			default:
 				break;
