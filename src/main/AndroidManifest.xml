@@ -132,8 +132,8 @@
         <activity
             android:name="com.aily.northeastelecstore.ui.MiaoShaActivity"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme" />
-        <activity
+            android:theme="@style/AppTheme">
+        </activity>
     </application>
 
 </manifest>
