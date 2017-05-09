@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:1:1-144:12
+ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:1:1-149:12
 	package
 		ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:2:5-42
 		INJECTED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml
@@ -84,7 +84,7 @@ ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-north
 	android:anyDensity
 		ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:28:9-34
 application
-ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:34:5-142:19
+ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:34:5-147:19
 	android:label
 		ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:38:9-41
 	android:allowBackup
@@ -275,3 +275,11 @@ ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-north
 		ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:140:13-44
 	android:name
 		ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:138:13-64
+activity#com.aily.northeastelecstore.ui.Promotion
+ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:142:9-146:20
+	android:launchMode
+		ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:144:13-43
+	android:theme
+		ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:145:13-44
+	android:name
+		ADDED from /home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/AndroidManifest.xml:143:13-68

@@ -203,16 +203,11 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener,
 			default:
 				break;
 			}
-			
 		}
 	};
 	
 	@Override
 	protected void initView() {
-		
-		
-		
-		
 		// TODO Auto-generated method stub
 		ImageLoader.getInstance().displayImage(
 				"drawable://" + R.drawable.miaosha, mMiaoShaImage);
