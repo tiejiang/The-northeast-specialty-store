@@ -42,4 +42,8 @@ public class IndexGalleryItemData {
 		this.price = price;
 	}
 
+	public void onClickEvent(){
+
+	}
+
 }

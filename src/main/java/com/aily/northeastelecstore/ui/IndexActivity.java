@@ -288,7 +288,7 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener,
 		mPromotionGallery.setAdapter(mPromotionAdapter);
 
 		mStormGallery.setSelection(3);
-		mPromotionGallery.setSelection(3);
+		mPromotionGallery.setSelection(4);
 
 		mBarPopupWindow = new HomeSearchBarPopupWindow(this,
 				LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);

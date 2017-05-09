@@ -1,5 +1,7 @@
 package com.aily.northeastelecstore.ui;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -41,10 +43,32 @@ public class CategoryActivity extends BaseActivity {
 			@Override
 			public void onItemClick(AdapterView<?> adapterview, View view, int parent,
 					long id) {
-				Toast.makeText(CategoryActivity.this, "你点击了第"+id+"项", Toast.LENGTH_SHORT).show();
+				addToCartCar(parent);
+				Toast.makeText(CategoryActivity.this, "你点击了第"+id+"项"+ "parent= " + parent, Toast.LENGTH_SHORT).show();
 				
 			}
 		});
+	}
+	//加入购物车的dialog
+	public void addToCartCar(int cart_index){
+
+		final AlertDialog.Builder builder = new AlertDialog.Builder(CategoryActivity.this);
+		builder.setTitle("提示");
+		builder.setMessage("是否加入购物车？");
+		builder.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialogInterface, int i) {
+
+				Toast.makeText(CategoryActivity.this, "已经加入购物车", Toast.LENGTH_SHORT).show();
+			}
+		});
+		builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialogInterface, int i) {
+
+			}
+		});
+		builder.create().show();
 	}
 
 	@Override
