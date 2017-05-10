@@ -3,6 +3,8 @@ package com.aily.northeastelecstore.ui;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,6 +24,7 @@ public class CategoryActivity extends BaseActivity {
 
 	private ListView catergory_listview;
 	private LayoutInflater layoutInflater;
+	public static Handler mHandler;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -45,12 +48,25 @@ public class CategoryActivity extends BaseActivity {
 					long id) {
 				addToCartCar(parent);
 				Toast.makeText(CategoryActivity.this, "你点击了第"+id+"项"+ "parent= " + parent, Toast.LENGTH_SHORT).show();
-				
+
 			}
 		});
 	}
+
+	//为购物车准备资源
+	public void returnMessageFromServer(String chat){
+
+        if (chat!=null) {
+			Message msg = new Message();
+			msg.obj = chat;
+			mHandler.sendMessage(msg);
+
+		}
+	}
+
+
 	//加入购物车的dialog
-	public void addToCartCar(int cart_index){
+	public void addToCartCar(final int cart_index){
 
 		final AlertDialog.Builder builder = new AlertDialog.Builder(CategoryActivity.this);
 		builder.setTitle("提示");
@@ -58,7 +74,7 @@ public class CategoryActivity extends BaseActivity {
 		builder.setPositiveButton("确认", new DialogInterface.OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialogInterface, int i) {
-
+				returnMessageFromServer(String.valueOf(cart_index));
 				Toast.makeText(CategoryActivity.this, "已经加入购物车", Toast.LENGTH_SHORT).show();
 			}
 		});

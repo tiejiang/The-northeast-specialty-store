@@ -1,17 +1,19 @@
 package com.aily.northeastelecstore.ui.base;
 
-import java.util.Locale;
-import java.util.concurrent.Callable;
-
-
-
-
-
-
-
-
-
-
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.telephony.TelephonyManager;
+import android.util.Log;
+import android.view.inputmethod.InputMethodManager;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.aily.northeastelecstore.AppManager;
 import com.aily.northeastelecstore.R;
@@ -21,20 +23,11 @@ import com.aily.northeastelecstore.task.AsyncCallable;
 import com.aily.northeastelecstore.task.Callback;
 import com.aily.northeastelecstore.task.EMobileTask;
 import com.aily.northeastelecstore.task.ProgressCallable;
+import com.aily.northeastelecstore.ui.CategoryActivity;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
-import android.app.Activity;
-import android.app.ProgressDialog;
-import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.os.Handler;
-import android.telephony.TelephonyManager;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
-import android.widget.Toast;
+import java.util.Locale;
+import java.util.concurrent.Callable;
 
 public abstract class BaseActivity extends Activity {
 
@@ -54,6 +47,21 @@ public abstract class BaseActivity extends Activity {
 		}
 		tManager=(TelephonyManager) getSystemService(TELEPHONY_SERVICE);
 		imm=(InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+
+
+		/**
+		 * 接受消息   必须先启动这个activity 实例化 此handler 才能保证 不出现空指针
+		 **/
+//		CategoryActivity.mHandler = new Handler(){
+//			@Override
+//			public void handleMessage(Message msg)
+//			{
+//				cartNum = Integer.parseInt(msg.obj.toString().trim());
+////				cartArray =
+//
+//
+//			}
+//		};
 	}
 
 	@Override

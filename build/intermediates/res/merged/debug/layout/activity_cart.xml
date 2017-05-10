@@ -102,7 +102,7 @@
             android:background="@drawable/cart_btn_normal"
             android:text="@string/cart_market"
             android:textSize="18sp"
-           android:paddingLeft="10dp"
+            android:paddingLeft="10dp"
             android:paddingRight="10dp"
             />
         

@@ -68,7 +68,9 @@ public class HomeActivity extends TabActivity {
 		mTabHost.addTab(mTabHost.newTabSpec(TAB_PERSONAL)
 				.setIndicator(TAB_PERSONAL).setContent(i_personal));
 
-		mTabHost.setCurrentTabByTag(TAB_MAIN);
+//		mTabHost.setCurrentTabByTag(TAB_MAIN);
+		//第一次让“TAB_CART”优先加载的目的是让控制物品显示栏的handler实例化，否则如果首次进入了物品浏览的page，又选择了商品则会奔溃
+		mTabHost.setCurrentTabByTag(TAB_CART);
 
 		mTabButtonGroup
 				.setOnCheckedChangeListener(new OnCheckedChangeListener() {

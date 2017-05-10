@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_cart.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_cart.xml"
-    },
-    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_category.xml",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_category.xml"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_cart.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_cart.xml"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_shake.xml",
