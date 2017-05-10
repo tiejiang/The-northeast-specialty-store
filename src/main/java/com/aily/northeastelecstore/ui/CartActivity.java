@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.aily.northeastelecstore.R;
 import com.aily.northeastelecstore.ui.base.BaseActivity;
@@ -18,6 +19,7 @@ import java.util.Vector;
 public class CartActivity extends BaseActivity implements OnClickListener {
 
 	private Button cart_login,cart_market;
+	private ImageView cartButton;
 	private Intent mIntent;
 	//购物车的数据
 	protected Vector cart = new Vector();
@@ -44,21 +46,14 @@ public class CartActivity extends BaseActivity implements OnClickListener {
 				Log.d( "TIEJIANG", "handle message cartNum= " + cartNum);
 			}
 		};
-		//判断cart容器是否为空，如果有数据则跳转到购物车的购物列表
-		if (!cart.isEmpty()){
-			Intent mIntent = new Intent(CartActivity.this, ShoppingCartActivity.class);
-			startActivity(mIntent);
-			Log.d("TIEJIANG","GOTO ShoppingCartActivity");
-
-		}
-
-
 	}
 
 	@Override
 	protected void findViewById() {
 		cart_login=(Button)this.findViewById(R.id.cart_login);
 		cart_market=(Button)this.findViewById(R.id.cart_market);
+		cartButton = (ImageView)findViewById(R.id.cart);
+
 	}
 
 	@Override
@@ -71,7 +66,7 @@ public class CartActivity extends BaseActivity implements OnClickListener {
 	protected void initView() {
 		cart_login.setOnClickListener(this);
 		cart_market.setOnClickListener(this);
-
+		cartButton.setOnClickListener(this);
 	}
 
 	@Override
@@ -84,13 +79,22 @@ public class CartActivity extends BaseActivity implements OnClickListener {
 			break;
 			
 		case R.id.cart_market:
-//			mIntent=new Intent(this, CategoryActivity.class);
-//			startActivity(mIntent);
+			mIntent=new Intent(this, CategoryActivity.class);
+			startActivity(mIntent);
 
 			// TEST CODE BEGIN
-			Intent mIntent = new Intent(CartActivity.this, ShoppingCartActivity.class);
-			startActivity(mIntent);
+//			Intent mIntent = new Intent(CartActivity.this, ShoppingCartActivity.class);
+//			startActivity(mIntent);
 			// TEST CODE BEGIN
+			break;
+
+		case R.id.cart:
+			//判断cart容器是否为空，如果有数据则跳转到购物车的购物列表
+			if (!cart.isEmpty()){
+				Intent mIntent = new Intent(CartActivity.this, ShoppingCartActivity.class);
+				startActivity(mIntent);
+				Log.d("TIEJIANG","GOTO ShoppingCartActivity");
+			}
 			break;
 
 

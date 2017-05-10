@@ -41,13 +41,13 @@ public class ShoppingCartActivity extends Activity implements View.OnClickListen
         adapter = new ShopAdapter(datas,this);
         listView.setAdapter(adapter);
         //以上就是我们常用的自定义适配器ListView展示数据的方法了
-//解决问题：在哪里处理按钮的点击响应事件，是适配器 还是 Activity或者Fragment，这里是在Activity本身处理接口
+        //解决问题：在哪里处理按钮的点击响应事件，是适配器 还是 Activity或者Fragment，这里是在Activity本身处理接口
         //执行添加商品数量，减少商品数量的按钮点击事件接口回调
         adapter.setOnAddNum(this);
         adapter.setOnSubNum(this);
         listView.setOnItemClickListener(this);
     }
-//点击某个按钮的时候，如果列表项所需的数据改变了，如何更新UI
+    //点击某个按钮的时候，如果列表项所需的数据改变了，如何更新UI
     @Override
     public void onClick(View view) {
         Object tag = view.getTag();
