@@ -28,20 +28,16 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_index_daily.xml"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\qr_code_scan.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\qr_code_scan.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_search.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_search.xml"
-    },
-    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_index_clothingcity.xml",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_index_clothingcity.xml"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cart.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_cart.xml"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_index_gallery_item.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_index_gallery_item.xml"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_home.xml",
@@ -60,12 +56,8 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/qr_code_scan.xml"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_ebooks.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_index_ebooks.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/exit_dialog_from_settings.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/exit_dialog_from_settings.xml"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_register.xml",
@@ -76,128 +68,20 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_index_digital.xml"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_index.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_digital.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_digital.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_personal.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_register_normal.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_register_normal.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide_index.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_guide_index.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\capture_result.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\capture_result.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/custom_toast.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/custom_toast.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_daily.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_index_daily.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_search.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_search.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_index_ebooks.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_index_ebooks.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_category.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_category.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_digital.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_digital.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_clothes.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_clothes.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_clothingcity.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_index_clothingcity.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_more.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_more.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\details_title.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\details_title.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_category_item.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_category_item.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_gallery_item.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_index_gallery_item.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\custom_toast.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\custom_toast.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_index_gallery_item.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_index_gallery_item.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clothes.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_clothes.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_digital.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_index_digital.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\app_search_toolbar_button.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\app_search_toolbar_button.xml"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/exit_dialog_from_settings.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/exit_dialog_from_settings.xml"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/item_cart.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/item_cart.xml"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_login.xml",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_model.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_model.xml"
-    },
-    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/details_title.xml",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/details_title.xml"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_register_normal.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_register_normal.xml"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/app_search_toolbar_button.xml",
@@ -208,12 +92,12 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_promotion.xml"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\exit_dialog_from_settings.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\exit_dialog_from_settings.xml"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/custom_toast.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/custom_toast.xml"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_normal.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_register_normal.xml"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_search.xml"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/capture_result.xml",
@@ -224,8 +108,12 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_index.xml"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shake.xml",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/F:\\AndroidProjectRepThird\\MyApplication2\\elecmall\\src\\main\\res\\layout\\activity_shake.xml"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_index_ebooks.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_index_ebooks.xml"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_digital.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_digital.xml"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_main.xml",
@@ -234,6 +122,10 @@
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_model.xml",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_model.xml"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_clothes.xml",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/layout/activity_clothes.xml"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/layout/activity_category_item.xml",

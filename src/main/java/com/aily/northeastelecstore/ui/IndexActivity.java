@@ -153,9 +153,6 @@ public class IndexActivity extends BaseActivity implements View.OnClickListener,
 		index_lottery_btn.setOnClickListener(indexClickListener);
 		shake.setOnClickListener(indexClickListener);
 		mMiaoShaImage.setOnClickListener(indexClickListener);
-
-
-
 	}
 
 	

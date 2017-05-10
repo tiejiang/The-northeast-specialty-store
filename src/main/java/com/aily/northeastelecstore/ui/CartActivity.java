@@ -44,6 +44,14 @@ public class CartActivity extends BaseActivity implements OnClickListener {
 				Log.d( "TIEJIANG", "handle message cartNum= " + cartNum);
 			}
 		};
+		//判断cart容器是否为空，如果有数据则跳转到购物车的购物列表
+		if (!cart.isEmpty()){
+			Intent mIntent = new Intent(CartActivity.this, ShoppingCartActivity.class);
+			startActivity(mIntent);
+			Log.d("TIEJIANG","GOTO ShoppingCartActivity");
+
+		}
+
 
 	}
 
@@ -51,6 +59,12 @@ public class CartActivity extends BaseActivity implements OnClickListener {
 	protected void findViewById() {
 		cart_login=(Button)this.findViewById(R.id.cart_login);
 		cart_market=(Button)this.findViewById(R.id.cart_market);
+	}
+
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+//		cart.removeAllElements();
 	}
 
 	@Override
@@ -70,9 +84,15 @@ public class CartActivity extends BaseActivity implements OnClickListener {
 			break;
 			
 		case R.id.cart_market:
-			mIntent=new Intent(this, CategoryActivity.class);
+//			mIntent=new Intent(this, CategoryActivity.class);
+//			startActivity(mIntent);
+
+			// TEST CODE BEGIN
+			Intent mIntent = new Intent(CartActivity.this, ShoppingCartActivity.class);
 			startActivity(mIntent);
+			// TEST CODE BEGIN
 			break;
+
 
 		default:
 			break;

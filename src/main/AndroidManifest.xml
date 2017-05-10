@@ -144,6 +144,11 @@
             android:launchMode="singleTop"
             android:theme="@style/AppTheme">
         </activity>
+        <activity
+            android:name="com.aily.northeastelecstore.ui.ShoppingCartActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme">
+        </activity>
     </application>
 
 </manifest>
