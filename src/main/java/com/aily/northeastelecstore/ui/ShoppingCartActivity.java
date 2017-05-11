@@ -1,7 +1,11 @@
 package com.aily.northeastelecstore.ui;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -23,23 +27,46 @@ public class ShoppingCartActivity extends Activity implements View.OnClickListen
     private List<Product> datas; //数据源
     private ShopAdapter adapter; //自定义适配器
     private ListView listView;   //ListView控件
+//    private Vector mCartVector = new Vector();
+    private ArrayList mArrayList = new ArrayList();
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         listView = (ListView) findViewById(R.id.listView);
-        // 模拟数据
+
+        //获得商品的Vector数据
+        Intent mIntent = getIntent();
+        mArrayList = (ArrayList) (mIntent.getSerializableExtra("cartVector"));
+        // test
+        for (int i = 0; i < mArrayList.size(); i ++){
+            Log.d( "TIEJIANG", "ShoppingCartActivity---mCartVector[i]= " + mArrayList.get(i));
+        }
+        // 向list写入数据
         datas = new ArrayList<Product>();
         Product product = null;
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < mArrayList.size(); i ++){
             product = new Product();
-            product.setName("商品："+i+":单价:"+i);
+            String cartName = CategoryActivity.mTitleValues[Integer.valueOf((String)(mArrayList.get(i)))];
+            product.setName("商品："+ cartName +":单价:");
             product.setNum(1);
             product.setPrice(i);
             datas.add(product);
         }
+
+        // 模拟数据
+//        datas = new ArrayList<Product>();
+//        Product product = null;
+//        for (int i = 0; i < 8; i++) {
+//            product = new Product();
+//            product.setName("商品："+i+":单价:"+i);
+//            product.setNum(1);
+//            product.setPrice(i);
+//            datas.add(product);
+//        }
         adapter = new ShopAdapter(datas,this);
         listView.setAdapter(adapter);
+
         //以上就是我们常用的自定义适配器ListView展示数据的方法了
         //解决问题：在哪里处理按钮的点击响应事件，是适配器 还是 Activity或者Fragment，这里是在Activity本身处理接口
         //执行添加商品数量，减少商品数量的按钮点击事件接口回调
@@ -83,6 +110,31 @@ public class ShoppingCartActivity extends Activity implements View.OnClickListen
     }
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-        Toast.makeText(ShoppingCartActivity.this,"点击了第"+i+"个列表项",Toast.LENGTH_SHORT).show();
+        addToCartCar();
+//        Toast.makeText(ShoppingCartActivity.this,"点击了第"+i+"个列表项",Toast.LENGTH_SHORT).show();
+    }
+
+    /**
+     * 下单的 dialog
+     * */
+    public void addToCartCar(){
+
+        final AlertDialog.Builder builder = new AlertDialog.Builder(ShoppingCartActivity.this);
+        builder.setTitle("提示");
+        builder.setMessage("是否下单？");
+        builder.setPositiveButton("确认", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Toast.makeText(ShoppingCartActivity.this, "在线结算SDK需付费，尚未开发", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+        builder.create().show();
     }
 }

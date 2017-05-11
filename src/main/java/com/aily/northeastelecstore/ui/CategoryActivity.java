@@ -47,7 +47,7 @@ public class CategoryActivity extends BaseActivity {
 			public void onItemClick(AdapterView<?> adapterview, View view, int parent,
 					long id) {
 				addToCartCar(parent);
-				Toast.makeText(CategoryActivity.this, "你点击了第"+id+"项"+ "parent= " + parent, Toast.LENGTH_SHORT).show();
+//				Toast.makeText(CategoryActivity.this, "你点击了第"+id+"项"+ "parent= " + parent, Toast.LENGTH_SHORT).show();
 
 			}
 		});
@@ -65,12 +65,18 @@ public class CategoryActivity extends BaseActivity {
 	}
 
 
-	//加入购物车的dialog
+	/**
+	 * 加入购物车的dialog
+	 * @param cart_index  所选择的商品索引
+	 * */
 	public void addToCartCar(final int cart_index){
 
+		View mDialogView = getLayoutInflater().inflate(R.layout.dialog_view, null);
+		TextView editText = (TextView)mDialogView.findViewById(R.id.cart_discribe);
+		editText.setText(mContentValues[cart_index]);
 		final AlertDialog.Builder builder = new AlertDialog.Builder(CategoryActivity.this);
-		builder.setTitle("提示");
-		builder.setMessage("是否加入购物车？");
+		builder.setTitle("是否加入购物车？");
+		builder.setMessage(mContentValues[cart_index]);
 		builder.setPositiveButton("确认", new DialogInterface.OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialogInterface, int i) {
@@ -144,17 +150,17 @@ public class CategoryActivity extends BaseActivity {
 	
 	
 	// 适配显示的图片数组
-	private Integer[] mImageIds = {R.drawable.catergory_appliance,R.drawable.catergory_book,R.drawable.catergory_cloth,R.drawable.catergory_deskbook,
+	public static Integer[] mImageIds = {R.drawable.catergory_appliance,R.drawable.catergory_book,R.drawable.catergory_cloth,R.drawable.catergory_deskbook,
 			R.drawable.catergory_digtcamer,R.drawable.catergory_furnitrue,R.drawable.catergory_mobile,R.drawable.catergory_skincare
 			 };
 	//给照片添加文字显示(Title)
 //				private String[] mTitleValues = { "家电", "图书", "衣服", "笔记本", "数码",
 //						"家具", "手机", "护肤" };
-	private String[] mTitleValues = { "山珍", "农产品", "熟食", "养生", "家禽",
-			"家居", "装饰", "民俗" };
+	public static String[] mTitleValues = { "野山菌", "我也不清楚啥玩意儿", "水漏～子", "东北山参", "木耳",
+			"东北稻米", "鹿茸", "人参" };
 
-	private String[] mContentValues={"山珍", "农产品","熟食", "养生",
-			"家禽", "家居", "装饰", "民俗"};
+	public static String[] mContentValues={ "野山菌-非常好吃", "我也不清楚啥玩意儿-非常好吃", "水漏～子-非常好吃",
+			"东北山参-非常好吃", "木耳-非常好吃", "东北稻米-非常好吃", "鹿茸-非常好吃", "人参-非常好吃" };
 			
 
 	 public static class ViewHolder {
