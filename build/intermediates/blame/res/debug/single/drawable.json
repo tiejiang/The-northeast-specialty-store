@@ -12,12 +12,12 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/shortcuts_icon_groupbuy.png"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/image_left.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/image_left.png"
-    },
-    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/android_home_shortcuts_item_bg.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/android_home_shortcuts_item_bg.png"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/image_left.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/image_left.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/home_tab_personal_selector.xml",
@@ -44,24 +44,24 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/no_image.9.png"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/loading_11.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/loading_11.png"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/index_gallery_09.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/index_gallery_09.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/loading_2.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/loading_2.png"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/index_gallery_09.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/index_gallery_09.png"
-    },
-    {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/login_user_icon_bg.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/login_user_icon_bg.png"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/loading_11.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/loading_11.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/image05.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/image05.png"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/login_user_icon_bg.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/login_user_icon_bg.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/app_limit_buy_cancel.png",
@@ -84,16 +84,16 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/catergory_book.jpg"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/mm_title_functionframe_pressed.9.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/mm_title_functionframe_pressed.9.png"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/app_icon_voice.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/app_icon_voice.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/toright_arrow.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/toright_arrow.png"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/app_icon_voice.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/app_icon_voice.png"
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/mm_title_functionframe_pressed.9.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/mm_title_functionframe_pressed.9.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/app_limit_buy_dialog_bottom_bg.xml",
@@ -116,12 +116,12 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/home_shopping_icon.png"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/index_gallery_14.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/index_gallery_14.png"
-    },
-    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/android_activities_cur.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/android_activities_cur.png"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/index_gallery_14.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/index_gallery_14.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/android_my_jd_account_safe.png",
@@ -148,12 +148,12 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/shortcuts_icon_order.png"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/mm_title_back_focused.9.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/mm_title_back_focused.9.png"
-    },
-    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/personal_more_button_selector.xml",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/personal_more_button_selector.xml"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/mm_title_back_focused.9.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/mm_title_back_focused.9.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/catergory_furnitrue.jpg",
@@ -176,12 +176,12 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/android_personel_waitpay_order.png"
     },
     {
-        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/android_my_jd_discuss.png",
-        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/android_my_jd_discuss.png"
-    },
-    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/category_selection_gridview_bg.9.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/category_selection_gridview_bg.9.png"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/android_my_jd_discuss.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/android_my_jd_discuss.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/shortcuts_icon_promotion.png",
@@ -444,6 +444,10 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/android_layout_bg.png"
     },
     {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/wholebkg.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/wholebkg.png"
+    },
+    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/chat_btn_normal.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/chat_btn_normal.png"
     },
@@ -480,12 +484,20 @@
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/android_my_easy_buy.png"
     },
     {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/login.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/login.png"
+    },
+    {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/btn_style_zero_pressed.9.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/btn_style_zero_pressed.9.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/index_gallery_12.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/index_gallery_12.png"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/tongji.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/tongji.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/clothing_01.jpg",
@@ -874,6 +886,10 @@
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/index_gallery_06.png",
         "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/index_gallery_06.png"
+    },
+    {
+        "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/registbkg.png",
+        "source": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/src/main/res/drawable/registbkg.png"
     },
     {
         "merged": "/home/tiejiang/AndroidProject/MedicalMonitor/MyApplication2/The-northeast-specialty-store/build/intermediates/res/merged/debug/drawable/app_limit_buy_ok_selector.xml",
