@@ -8,10 +8,7 @@ import java.util.Date;
  * @author tiejiang
  */
 public class Utils {
-    //	public static String primitiveUrl = "http://10.8.12.69:8080/demo/";
-//	public static String primitiveUrl = "http://172.23.181.4:8080/demo/";
-//	public static String primitiveUrl = "http://192.168.18.21:8080/demo/";
-    public static String primitiveUrl = "http://192.168.191.1/web/php/";
+    public static String primitiveUrl = "http://192.168.10.241/web/php/";
     //获得系统当前时间座位订单号一部分
     public static String obtainCurrentTime(){
         SimpleDateFormat formatter = new SimpleDateFormat("yyyyMMddHHmmss");
