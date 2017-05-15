@@ -128,16 +128,16 @@
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\details_title.xml"
     },
     {
-        "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
-        "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\activity_miaosha.xml",
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\activity_miaosha.xml"
     },
     {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\exit_dialog_from_settings.xml",
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\exit_dialog_from_settings.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\activity_category_item.xml",

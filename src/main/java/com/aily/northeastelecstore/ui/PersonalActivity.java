@@ -1,7 +1,10 @@
 package com.aily.northeastelecstore.ui;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -10,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.aily.northeastelecstore.R;
 import com.aily.northeastelecstore.ui.base.BaseActivity;
@@ -21,14 +25,16 @@ import com.aily.northeastelecstore.widgets.CustomScrollView;
 public class PersonalActivity extends BaseActivity implements OnClickListener {
 
 	private ImageView mBackgroundImageView = null;
+	private ImageView personal_icon_03;
 	private Button mLoginButton,mMoreButton,mExitButton;
 	private CustomScrollView mScrollView = null;
 	private Intent mIntent=null;
 	private ExitView exit;
 	private LinearLayout Ly_login,Ly_Other;
 	private RelativeLayout Ly_personalInfo;
-	private TextView username;
+	private TextView username, user_msg;
 	private int LOGIN_CODE=100;
+	private SharedPreferences preferences;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +43,31 @@ public class PersonalActivity extends BaseActivity implements OnClickListener {
 		setContentView(R.layout.activity_personal);
 		findViewById();
 		initView();
+		//检查是否等了，如果已经登录则不显示登录按钮的view
+		preferences = this.getSharedPreferences("user_msg", Context.MODE_WORLD_READABLE);
+		String userName = preferences.getString("id", null);
+		Log.d("TIEJIANG", "PersonalActivity---userName= " + userName);
+		if (userName != null){
+			mLoginButton.setVisibility(View.INVISIBLE);
+			user_msg = (TextView)findViewById(R.id.user_msg);
+			user_msg.setText("用户名：" + userName);
+		}
+
+	}
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		//检查是否等了，如果已经登录则不显示登录按钮的view
+		preferences = this.getSharedPreferences("user_msg", Context.MODE_WORLD_READABLE);
+		String userName = preferences.getString("id", null);
+		Log.d("TIEJIANG", "PersonalActivity---userName= " + userName);
+		if (userName != null){
+			mLoginButton.setVisibility(View.INVISIBLE);
+		}else {
+			mLoginButton.setVisibility(View.VISIBLE);
+		}
+
 	}
 
 	@Override
@@ -59,10 +90,12 @@ public class PersonalActivity extends BaseActivity implements OnClickListener {
 	protected void initView() {
 		// TODO Auto-generated method stub
 		mScrollView.setImageView(mBackgroundImageView);
+		personal_icon_03 = (ImageView)findViewById(R.id.personal_icon_03);
 		
 		mLoginButton.setOnClickListener(this);
 		mMoreButton.setOnClickListener(this);
 		mExitButton.setOnClickListener(this);
+		personal_icon_03.setOnClickListener(this);  //全部订单
 		
 	}
 
@@ -87,9 +120,11 @@ public class PersonalActivity extends BaseActivity implements OnClickListener {
 			exit = new ExitView(PersonalActivity.this, itemsOnClick);
 			//显示窗口
 			exit.showAtLocation(PersonalActivity.this.findViewById(R.id.layout_personal), Gravity.BOTTOM|Gravity.CENTER_HORIZONTAL, 0, 0); //设置layout在PopupWindow中显示的位置
-			
+
 			
 			break;
+		case R.id.personal_icon_03:
+			Toast.makeText(PersonalActivity.this, "暂未开放订单检索功能", Toast.LENGTH_SHORT).show();
 			
 		default:
 			break;
@@ -126,7 +161,13 @@ public class PersonalActivity extends BaseActivity implements OnClickListener {
 			switch (v.getId()) {
 			case R.id.btn_exit:
 				CommonTools.showShortToast(PersonalActivity.this, "退出程序");
-				
+				// 将用户名和密码清空
+				SharedPreferences pre = getSharedPreferences("user_msg", MODE_WORLD_WRITEABLE);
+				SharedPreferences.Editor editor = pre.edit();
+				editor.putString("id", null);
+				editor.putString("name", null);
+				editor.commit();
+				PersonalActivity.this.dismissDialog(R.id.btn_exit);
 				break;
 			case R.id.btn_cancel:
 				PersonalActivity.this.dismissDialog(R.id.btn_cancel);

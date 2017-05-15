@@ -161,8 +161,8 @@ public class ObtainData {
     public static void submitComment(final String cartname, final String username, final String comment){
         List<NameValuePair> params = new ArrayList<NameValuePair>();
         // 添加请求参数
-        params.add(new BasicNameValuePair("carteno", cartname));//菜单编号
-        params.add(new BasicNameValuePair("guuser", username));//最多从服务端返回十条评论
+        params.add(new BasicNameValuePair("carteno", cartname));
+        params.add(new BasicNameValuePair("guuser", username));
         params.add(new BasicNameValuePair("carteping", comment));
         UrlEncodedFormEntity entity1=null;
         try {

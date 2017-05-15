@@ -224,12 +224,12 @@
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\drawable\\add_to_car_button_press.9.png"
     },
     {
-        "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\drawable\\home_cursor_layout_bg.9.png",
-        "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\drawable\\home_cursor_layout_bg.9.png"
-    },
-    {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\drawable\\main_bottom_tab_personal_focus.png",
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\drawable\\main_bottom_tab_personal_focus.png"
+    },
+    {
+        "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\drawable\\home_cursor_layout_bg.9.png",
+        "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\drawable\\home_cursor_layout_bg.9.png"
     },
     {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\drawable\\catergory_appliance.jpg",
@@ -576,12 +576,12 @@
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\drawable\\quckly_register_btn_bg.png"
     },
     {
-        "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_5.png",
-        "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\drawable\\loading_5.png"
-    },
-    {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\drawable\\lottery_head_2.png",
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\drawable\\lottery_head_2.png"
+    },
+    {
+        "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_5.png",
+        "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\drawable\\loading_5.png"
     },
     {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\drawable\\index_gallery_02.png",

@@ -1,6 +1,8 @@
 package com.aily.northeastelecstore.ui;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -9,6 +11,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.aily.northeastelecstore.R;
@@ -22,9 +25,24 @@ public class CartActivity extends BaseActivity implements OnClickListener {
 	private Button cart_login,cart_market;
 	private ImageView cartButton;
 	private Intent mIntent;
+	private LinearLayout login_layout;
 	//购物车的数据
 	protected Vector cart = new Vector();
 	protected String cartNum;
+	private SharedPreferences preferences;
+
+	@Override
+	protected void onResume() {
+		super.onResume();
+		//检查是否等了，如果已经登录则不显示登录按钮的view
+		preferences = this.getSharedPreferences("user_msg", Context.MODE_WORLD_READABLE);
+		String userName = preferences.getString("id", null);
+		Log.d("TIEJIANG", "CartActivity---userName= " + userName);
+		if (userName != null){
+			login_layout = (LinearLayout)findViewById(R.id.login_layout);
+			login_layout.setVisibility(View.INVISIBLE);
+		}
+	}
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +51,14 @@ public class CartActivity extends BaseActivity implements OnClickListener {
 		setContentView(R.layout.activity_cart);
 		findViewById();
 		initView();
-
+		//检查是否等了，如果已经登录则不显示登录按钮的view
+		preferences = this.getSharedPreferences("user_msg", Context.MODE_WORLD_READABLE);
+		String userName = preferences.getString("id", null);
+		Log.d("TIEJIANG", "CartActivity---userName= " + userName);
+		if (userName != null){
+			login_layout = (LinearLayout)findViewById(R.id.login_layout);
+			login_layout.setVisibility(View.INVISIBLE);
+		}
 
 		/**
 		 * 接受消息   必须先启动这个activity 实例化 此handler 才能保证 CategoryActivity提交购物车时候不出现空指针

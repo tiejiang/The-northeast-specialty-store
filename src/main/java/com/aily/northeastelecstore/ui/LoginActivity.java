@@ -97,6 +97,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 							Intent intent = new Intent();
 							intent.setClass(LoginActivity.this, CategoryActivity.class);
 							startActivity(intent);
+							finish();
 						}
 					}
 				}else {

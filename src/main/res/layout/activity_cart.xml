@@ -23,6 +23,7 @@
 
  <!--    如果没有登录，打开登录提示 -->
     <LinearLayout
+            android:id="@+id/login_layout"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
