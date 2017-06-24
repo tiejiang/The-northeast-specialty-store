@@ -12,12 +12,12 @@
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide_index.xml",
-        "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\activity_guide_index.xml"
-    },
-    {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\activity_index_daily.xml",
         "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\activity_index_daily.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide_index.xml",
+        "source": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\src\\main\\res\\layout\\activity_guide_index.xml"
     },
     {
         "merged": "F:\\AndroidProjectRep\\The-northeast-specialty-store\\build\\intermediates\\res\\merged\\debug\\layout\\activity_digital.xml",

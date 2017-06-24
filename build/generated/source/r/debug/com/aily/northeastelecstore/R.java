@@ -815,6 +815,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int index_tehui_gallery=0x7f0a004b;
         public static final int index_top_layout=0x7f0a0033;
         public static final int index_top_logo=0x7f0a0034;
+        public static final int ip_set=0x7f0a00bc;
         public static final int isShowPassword=0x7f0a0059;
         public static final int italic=0x7f0a001a;
         public static final int item_btn_add=0x7f0a00b2;
@@ -830,11 +831,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int layout_login_userinfo=0x7f0a005b;
         public static final int layout_personal=0x7f0a0070;
         public static final int layout_top=0x7f0a009f;
-        public static final int linear1=0x7f0a00bf;
-        public static final int linear2=0x7f0a00c0;
-        public static final int linear3=0x7f0a00c2;
-        public static final int linear4=0x7f0a00c4;
-        public static final int listView=0x7f0a00bc;
+        public static final int linear1=0x7f0a00c0;
+        public static final int linear2=0x7f0a00c1;
+        public static final int linear3=0x7f0a00c3;
+        public static final int linear4=0x7f0a00c5;
+        public static final int listView=0x7f0a00bd;
         public static final int list_clothingcity=0x7f0a004e;
         public static final int login=0x7f0a005a;
         public static final int loginButton=0x7f0a00b9;
@@ -848,12 +849,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int main_container=0x7f0a005f;
         public static final int main_indicator=0x7f0a0060;
         public static final int main_persionIcon=0x7f0a0078;
-        public static final int menu_about=0x7f0a00ca;
-        public static final int menu_exit=0x7f0a00cb;
-        public static final int menu_feedback=0x7f0a00c8;
-        public static final int menu_help=0x7f0a00c9;
-        public static final int menu_history=0x7f0a00c7;
-        public static final int menu_setting=0x7f0a00c6;
+        public static final int menu_about=0x7f0a00cb;
+        public static final int menu_exit=0x7f0a00cc;
+        public static final int menu_feedback=0x7f0a00c9;
+        public static final int menu_help=0x7f0a00ca;
+        public static final int menu_history=0x7f0a00c8;
+        public static final int menu_setting=0x7f0a00c7;
         public static final int monospace=0x7f0a001c;
         public static final int more_aboutus=0x7f0a006a;
         public static final int more_exit=0x7f0a006e;
@@ -862,7 +863,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int more_opinion=0x7f0a0068;
         public static final int more_seting=0x7f0a0064;
         public static final int more_update=0x7f0a006c;
-        public static final int name=0x7f0a00c3;
+        public static final int name=0x7f0a00c4;
         public static final int normal=0x7f0a001b;
         public static final int openPic=0x7f0a00a7;
         public static final int other_layout=0x7f0a007c;
@@ -870,7 +871,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int paint_color=0x7f0a007f;
         public static final int paint_size=0x7f0a007e;
         public static final int paint_writing=0x7f0a007d;
-        public static final int password=0x7f0a00c1;
+        public static final int password=0x7f0a00c2;
         public static final int personal=0x7f0a0076;
         public static final int personal_background_image=0x7f0a0072;
         public static final int personal_exit=0x7f0a008c;
@@ -889,9 +890,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int personal_scrollView=0x7f0a0073;
         public static final int personal_service=0x7f0a008b;
         public static final int personal_top_layout=0x7f0a0051;
-        public static final int phonenum=0x7f0a00c5;
+        public static final int phonenum=0x7f0a00c6;
         public static final int pop_layout=0x7f0a00ae;
-        public static final int preview_view=0x7f0a00bd;
+        public static final int preview_view=0x7f0a00be;
         public static final int pwdEditText=0x7f0a00b8;
         public static final int qrcode_bitmap=0x7f0a00a3;
         public static final int quit=0x7f0a0007;
@@ -931,7 +932,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int userEditText=0x7f0a00b7;
         public static final int user_msg=0x7f0a0075;
         public static final int username=0x7f0a0079;
-        public static final int viewfinder_view=0x7f0a00be;
+        public static final int viewfinder_view=0x7f0a00bf;
         public static final int zoomin=0x7f0a0017;
         public static final int zoomout=0x7f0a0018;
     }

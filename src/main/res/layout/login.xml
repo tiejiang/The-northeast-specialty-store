@@ -87,4 +87,32 @@
 
 	</LinearLayout>
 
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_marginTop="20dp"
+		>
+		<Button
+			android:layout_width="80dp"
+			android:layout_height="50dp"
+			android:layout_marginLeft="18dp"
+			android:text="IP设置："
+			android:background="@drawable/tongji"
+			android:textColor="#ffffff"
+			android:textStyle="bold" />
+
+		<EditText
+			android:id="@+id/ip_set"
+			android:layout_width="150dp"
+			android:layout_height="50dp"
+			android:background="@drawable/tongji"
+			android:maxWidth="20dp"
+			android:padding="5dp"
+			android:text="192.168.1.100" />
+
+	</LinearLayout>
+
+
+
 </LinearLayout>

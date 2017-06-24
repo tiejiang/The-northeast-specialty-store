@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -40,7 +41,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LoginActivity extends Activity implements OnClickListener {
-	private EditText userEditText, pwdEditText;
+	private EditText userEditText, pwdEditText, ipSet;
 	private Button cancelButton, loginButton, registerButton;
 	private String username, pwd;
 	private static String jsonStr = "" ;
@@ -74,9 +75,12 @@ public class LoginActivity extends Activity implements OnClickListener {
 
 		userEditText = (EditText)findViewById(R.id.userEditText);
 		pwdEditText = (EditText)findViewById(R.id.pwdEditText);
+		ipSet  = (EditText)findViewById(R.id.ip_set);
 		cancelButton = (Button)findViewById(R.id.cancelButton);
 		loginButton = (Button)findViewById(R.id.loginButton);
 		registerButton = (Button)findViewById(R.id.registerButton);
+
+
 
 		cancelButton.setOnClickListener(this);
 		loginButton.setOnClickListener(this);
@@ -85,11 +89,14 @@ public class LoginActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View arg0) {
 		// TODO Auto-generated method stub
+//		String primitiveUrl = "http://192.168.10.241";
+		String IP = ipSet.getText().toString().trim();
+		Log.d("TIEJINAG", "IP= " + IP);
 		switch (arg0.getId()) {
 			case R.id.loginButton:
 				if (isConnect) {
 					if (validate()) {
-						if (!queryForHttpPost(username, pwd)) {
+						if (!queryForHttpPost(username, pwd, "http://" + IP + "/web/php/")) {
 							Toast.makeText(LoginActivity.this, "登录失败！", Toast.LENGTH_SHORT).show();
 						}else {
 							saveUserMsg(username, pwd);
@@ -176,7 +183,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 		return true;
 	}
 	// 请求服务端 获得响应
-	private boolean queryForHttpPost(String account, String password){
+	private boolean queryForHttpPost(String account, String password, String  ip_address){
 		DefaultHttpClient mHttpClient = new DefaultHttpClient();
 		HttpPost mPost = new HttpPost(Utils.primitiveUrl+"login.php");
 		List<BasicNameValuePair> pairs = new ArrayList<BasicNameValuePair>();
@@ -211,7 +218,7 @@ public class LoginActivity extends Activity implements OnClickListener {
 						name = jsonObject.getString("name");
 						userid = jsonObject.getString("userid");
 
-						System.out.println("falg:" + flag);
+						System.out.println("flag:" + flag);
 						System.out.println("name:" + name);
 						System.out.println("userid:" + userid);
 
